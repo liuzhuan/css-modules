@@ -2,11 +2,19 @@
 
 # Exporting values variables
 
+> 输出变量数值
+
 You can export values with css modules similar to using variables in less or sass.
+
+> 可以将变量输出，如同 less 或 sass 一般。
 
 Just ensure you are using postcss and the [postcss-modules-values](https://github.com/css-modules/postcss-modules-values) plugin
 
+> 确保你使用 postcss，并且使用 postcss-modules-values 插件。
+
 Now you set up your values/variables
+
+> 定义变量
 
 **colors.css**
 
@@ -17,6 +25,8 @@ Now you set up your values/variables
 ```
 
 then import them into your components css module
+
+> 使用变量
 
 **demo.css**
 
@@ -32,6 +42,8 @@ then import them into your components css module
 ```
 
 ## Example webpack.config for postcss-modules-values
+
+> 设置 `postcss-modules-values` 的 `webpack.config` 例子
 
 ```js
 var path = require('path');

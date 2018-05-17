@@ -4,6 +4,8 @@
 
 Instead of importing a style in the component, the component can take a style as property. This way different themes can be used. The user can even define custom themes.
 
+> 因为样式只是个属性，自定义注意变得简单。
+
 ``` css
 /* component/theme-a.css */
 .outer { background: green; }

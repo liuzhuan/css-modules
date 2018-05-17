@@ -5,6 +5,8 @@
 You can import multiple css modules into a component or function using `Object.assign`
 For example if you import a button css modules to your Demo component, add this to the components default styles.
 
+> 使用 `Object.assign` 可以把多个 CSS 模块合并注入到一个组件。
+
 ```js
 let styles = {}
 import demo from './Demo.css'
@@ -13,6 +15,8 @@ Object.assign(styles, fancyButton, demo)
 ```
 
 You can even import css modules installed from npm. e.g. [pure-css](https://github.com/StevenIseki/pure-css)
+
+> 甚至可以从 npm 包中引入 CSS 模块。
 
 ```sh
 npm install pure-css --save-dev

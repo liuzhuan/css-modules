@@ -4,11 +4,17 @@
 
 CSS Modules works by compiling individual CSS files into both CSS and data. The CSS output is normal, global CSS, which can be injected directly into the browser or concatenated together and written to a file for production use. The data is used to map the human-readable names you've used in the files to the globally-safe output CSS.
 
+> CSS 模块将独立的 CSS 文件编译为 CSS 和数据。输出的 CSS 是普通的全局 CSS，可以被直接注入到浏览器或拼接为一个文件，便于生产环境使用。数据用来将人类可读的名称映射到全局安全的 CSS。
+
 There are currently 4 ways to integrate CSS Modules into your project. You should look to each of these projects for more detailed setup instructions. 
+
+> 将 CSS 模块引入当前工程有 4 种方法。
 
 ### Webpack
 
 The [css-loader](https://github.com/webpack/css-loader) has CSS Modules built-in. Simply activate it by using the `?modules` flag. We maintain an example project using this at [css-modules/webpack-demo](https://github.com/css-modules/webpack-demo).
+
+> 使用 webpack 的 css-loader，后缀 `?modules` 将其激活。
 
 ### Browserify
 
